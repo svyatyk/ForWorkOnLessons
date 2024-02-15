@@ -1,40 +1,36 @@
-// let text = ";alskjdfkasjdfjaklsjd;fja;sljdf;ajsdjfl;asdjflaskjdfl;kasjblvj nclxjzg.jdf,f";
-// const numbers = 123424343;
-alert("text");
-let text = "sldjfa;ldj;lafs" //"" - type of data = text
-window.alert("our first js lesson")
-let Number = 4;
-typeof(Number);
-console.log(typeof(Number));
-let ddd;
-console.log(typeof("und"));
-console.log(typeof(ddd));
-const woman = {
-    name: 'maria',
-    age : 12,
-    isMarried :true
-
-
-};
-console.log(woman);
-woman.age= 4;
-
-console.log(woman.age);
-
-let array = ["adsdf" , 1, true ];
-console.log(arr[1]);
-
-let NameStore = lidl;
-const StoreDescription = {
-     budget : 10000,
-     employees : ["sss", "ddd", "fff"],
-     products :  {
-        trousers : 100,
-        hhh : 100
-
-     },
-     shopIsOpen : true,
-     shopIsClosed: false
+"use strict";
+//let num = 3;
+//let element;
+//element = "body";
+//alert(num);
+//window.alert(element);
+//a = 15;
+//console.log(a);
+//const a = 3000;
+//const b = 5000;
+//console.log('розміри авто $ {a} на ')
+// let userName= "john";
+// let numberUserName = 25;
+// numberUserName = 25 - 1; 
+// console.log(numberUserName);
+// console.log(userName);
+let NumberOfFilms = prompt("Скільки фільмів ви вже подивилися","");
+const personalm = {
+    count : NumberOfFilms,
+    movies : {},
+    actors : {},
+    genres : [],
+    privat : false
 }
-let name;
-name = "sdf";
+let a = prompt("один із останніх переглянутих фільмів ","");
+let b = prompt("наскільки оціните його ","");
+let c = prompt("один із останніх переглянутих фільмів ","");
+let d = prompt("наскільки оціните його ","");
+personalm.movies[a]=b;
+personalm.movies[c]=d;
+// 
+
+console.log(personalm.movies)
+
+
+
