@@ -1,36 +1,37 @@
-"use strict";
-//let num = 3;
-//let element;
-//element = "body";
-//alert(num);
-//window.alert(element);
-//a = 15;
-//console.log(a);
-//const a = 3000;
-//const b = 5000;
-//console.log('розміри авто $ {a} на ')
-// let userName= "john";
-// let numberUserName = 25;
-// numberUserName = 25 - 1; 
-// console.log(numberUserName);
-// console.log(userName);
-let NumberOfFilms = prompt("Скільки фільмів ви вже подивилися","");
-const personalm = {
-    count : NumberOfFilms,
-    movies : {},
-    actors : {},
-    genres : [],
-    privat : false
+// const Object1 = { 
+//     name : "hello",
+//     sNumber : 6,
+//     phoneIsOpen : true , 
+//     Object2 : {
+//         name : "sss",
+//         age : 4 ,
+//         weight : 33 
+//     },
+//     Arr : ["sss", "ssdd","sdfsd"]
+// };
+// let arr = [ 4 , 3 , 3]; 
+// console.log(Object1);
+// const answer = prompt("how old are you ", "");
+// console.log(answer);
+// let arr2= [];
+// arr2[0]=prompt("fff", "");
+
+// const category = "sdfd";
+// console.log(`http://someurl.com/${category}/6/hello `);
+// alert(`hello ${6}/4`);
+const Object1 = {
+    name : "ssss",
+    SNumber : 44,
+    weight : 22,
+    Object2 : {
+        Array : ["ssss", "fdsd", "fdsfd"]
+    }
+    
 }
-let a = prompt("один із останніх переглянутих фільмів ","");
-let b = prompt("наскільки оціните його ","");
-let c = prompt("один із останніх переглянутих фільмів ","");
-let d = prompt("наскільки оціните його ","");
-personalm.movies[a]=b;
-personalm.movies[c]=d;
-// 
-
-console.log(personalm.movies)
-
+let m = 1;
+console.log(++m);
+console.log(m++);
+console.log(m);
+console.log(`sssssss ${555}/sss`);
 
 
