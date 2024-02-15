@@ -1,0 +1,46 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: end;
+}
+
+.navbar-expand-lg {
+    min-height: 100px;
+}
+
+.grid_wrap {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 100px 1fr 200px;
+    grid-template-areas: "header header" "aside main" "footer footer";
+    grid-gap: 20px 30px;
+}
+
+header {
+    grid-area: header;
+    background-color: #f8f9fa;
+    padding: 0 30px;
+}
+
+aside {
+    grid-area: aside;
+    background-color: #FFF5EE;
+    padding: 30px;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #708090;
+}
